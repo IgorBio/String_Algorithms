@@ -14,27 +14,27 @@ The "DNA Analyzer v1.0" is an app written in C++. The console application provid
 ## Features
 - Console interface
 
-  ![DNA Analyzer Console Screenshot](./resources/images/DNA_Analizer_console.png)
+  ![DNA Analyzer Console Screenshot](./docs/images/DNA_Analizer_console.png)
 
 - Implementation of the exact DNA search project using the Rabin-Karp algorithm.
 
-  ![Rabin-Karp Screenshot](./resources/images/Rabin_Karp.png)
+  ![Rabin-Karp Screenshot](./docs/images/Rabin_Karp.png)
 
 - Implementation of the sequence alignment project using Needleman-Wunsch algorithm.
 
-  ![Needleman-Wunsch Screenshot](./resources/images/Needleman_Wunsch.png)
+  ![Needleman-Wunsch Screenshot](./docs/images/Needleman_Wunsch.png)
 
 - Matching regular expressions.
 
-  ![Regex Screenshot](./resources/images/regex.png)
+  ![Regex Screenshot](./docs/images/regex.png)
 
 - K-similar strings.
 
-  ![K-similar Screenshot](./resources/images/k_similar.png)
+  ![K-similar Screenshot](./docs/images/k_similar.png)
 
 - Minimum window substring.
 
-  ![Minimum Window Screenshot](./resources/images/min_window.png)
+  ![Minimum Window Screenshot](./docs/images/min_window.png)
 
 ## License
 Copyright (c). All rights reserved.

@@ -1,0 +1,13 @@
+PROJECT_NAME           = "DNA_Analizer"
+PROJECT_NUMBER         = 1.0
+STRIP_FROM_PATH        = "./"
+OUTPUT_LANGUAGE        = English
+INPUT                  = "./"
+CREATE_SUBDIRS         = YES
+FILE_PATTERNS          = *.h *.md
+RECURSIVE              = YES
+IMAGE_PATH             = ./docs/images
+USE_MDFILE_AS_MAINPAGE = ./readme.md
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+OUTPUT_DIRECTORY       = ./docs

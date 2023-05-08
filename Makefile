@@ -22,13 +22,17 @@ app:
 	@cmake -S . -B build
 	@cmake --build build
 
+dvi:
+	doxygen ./docs/Doxyfile
+	open ./docs/html/index.html
+
 tests:
 	@$(CC) $(TEST_LIB) $(CHECKFLAGS) -o Test
 	@./Test
 	@rm -rf *.o Test
 
 clean:
-	@rm -rf ./build
+	@rm -rf ./build ./docs/html
 
 cppcheck:
 	@cppcheck $(CPPCHECKFLAG) */*.cc */*/*.cc *.cc  */*.h */*/*.h *.h
